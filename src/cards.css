@@ -1,0 +1,63 @@
+/* styles.css */
+.card {
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  color: black;
+  background-color: white;
+  margin: 7px ;
+
+}
+
+body {
+  background-color: #2c67f2;
+}
+
+.card-text-small {
+  font-size: smaller;
+  text-align: left;
+  list-style: none;
+}
+
+.card-text-small::before {
+  content: '✔';
+  color: grey;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+}
+
+.card-text-cross {
+  font-size: smaller;
+  text-align: left;
+  list-style: none;
+}
+
+.card-text-cross::before {
+  content: 'x';
+  color: grey;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+}
+
+.card-text-special {
+  font-size: smaller;
+  color: grey;
+  font-weight: normal;
+}
+
+.card-title {
+  font-family: 'auto';
+  font-style: inherit;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+Button {
+  background-color: #62cff4;
+}
+
+#mode {
+  font-size: smaller;
+}
